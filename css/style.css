@@ -7,12 +7,12 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
+  background-color: #e0dede;
   color: #333;
 }
 
 header.hero {
-  background-image: linear-gradient(to right, #0066cc, #00ccff);
+  background-image: linear-gradient(to right, #656567, #d5e8ef);
   color: white;
   padding: 100px 20px;
   text-align: center;
@@ -34,7 +34,7 @@ p {
 }
 
 .cta-button {
-  background-color: #ff9800;
+  background-color: #626060;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -45,7 +45,7 @@ p {
 }
 
 .cta-button:hover {
-  background-color: #e68a00;
+  background-color: rgba(232, 147, 0, 0.73);
 }
 
 .subscription, .features {
@@ -163,7 +163,7 @@ input[type="email"], select {
 /* Общие стили для котиков */
 .side-cat {
   position: absolute;
-  width: 10vw;
+  width: 20vw;
   z-index: 100;
 }
 
